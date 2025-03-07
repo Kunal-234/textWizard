@@ -56,28 +56,28 @@ export default function TextForm(props) {
       <div className="d-flex mx-4">
         <button disabled={text.length===0}
           className={`btn btn-outline-${props.mode === `light` ? `info` : `dark`
-            } ms-4 `}
+            } ms-4`}
           onClick={handleUpClick}
         >
           Convert to UpperCase
         </button>
         <button disabled={text.length===0}
           className={`btn btn-outline-${props.mode === `light` ? `info` : `dark`
-            } ms-4 `}
+            } ms-2`}
           onClick={handleLoClick}
         >
           Convert to LowerCase
         </button>
         <button disabled={text.length===0}
           className={`btn btn-outline-${props.mode === `light` ? `info` : `dark`
-            } ms-4 `}
+            }  ms-2`}
           onClick={handleClear}
         >
           Clear Text
         </button>
         <button disabled={text.length===0}
           className={`btn btn-outline-${props.mode === `light` ? `info` : `dark`
-            } ms-4 `}
+            } ms-2`}
           onClick={handleCopy}
         >
           Copy Text
