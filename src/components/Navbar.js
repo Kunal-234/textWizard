@@ -21,6 +21,12 @@ export default function Navbar(props) {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={
+            props.mode === `light`
+              ? { filter: "invert(1)" }
+              :{ filter: "invert(0)" }
+          }
+
         >
           <span className="navbar-toggler-icon"></span>
         </button>
