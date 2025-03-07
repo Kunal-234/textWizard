@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgb(106, 234, 229), rgb(182, 231, 243), rgb(147, 225, 245));
+  color: black;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.darkMode {
+  background: linear-gradient(rgb(1, 52, 68), rgb(0, 8, 34), rgb(1, 36, 46));
+  color: white;
+}
+
+.lightMode {
+  /* background-color: rgb(231, 253, 254); */
+  background: linear-gradient(rgb(106, 234, 229), rgb(182, 231, 243), rgb(147, 225, 245));
+  color: black;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* body{
+  background-color: rgb(11, 39, 48);
+} */
