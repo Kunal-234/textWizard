@@ -75,13 +75,13 @@ export default function TextForm(props) {
         >
           Clear Text
         </button>
-        <button disabled={text.length===0}
+        {/* <button disabled={text.length===0}
           className={`btn btn-outline-${props.mode === `light` ? `info` : `dark`
             } ms-2`}
           onClick={handleCopy}
         >
           Copy Text
-        </button>
+        </button> */}
       </div>
       <div
         className={`container text-${props.mode === `light` ? `light` : `dark`
