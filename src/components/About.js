@@ -9,7 +9,7 @@ export default function About(props) {
         pursuing a Bachelor of Computer Applications (BCA) at Srinath
         University,Jamshedpur. My journey in the world of technology started with a deep
         curiosity about how software works, leading me to explore various
-        aspects of web development, programming, and cybersecurity.
+        aspects of web development and programming.
       </p>
       <p>
         If you'd like to collaborate or discuss anything tech-related, feel free
