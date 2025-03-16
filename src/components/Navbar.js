@@ -1,6 +1,6 @@
 // import React,{uses, useState} from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 export default function Navbar(props) {
  
@@ -10,9 +10,9 @@ export default function Navbar(props) {
       data-bs-theme="light"
     >
       <div className={`container-fluid text-${props.mode===`light`?`light`:`dark`}`}>
-        <Link className={`text-${props.mode===`light`?`light`:`dark`} navbar-brand `}to="/">
+        <NavLink className={`text-${props.mode===`light`?`light`:`dark`} navbar-brand `}to="/">
           {props.title}
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -33,14 +33,14 @@ export default function Navbar(props) {
         <div className={`collapse navbar-collapse text-${props.mode===`light`?`light`:`dark`}`} id="navbarSupportedContent">
           <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className={`nav-link mx-2  active text-${props.mode===`light`?`light`:`dark`}`} aria-current="page" to="/">
+              <NavLink className={`nav-link mx-2  active text-${props.mode===`light`?`light`:`dark`}`} aria-current="page" to="/">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link style={{textDecoration:"none"}} className={`nav-link mx-2 text-${props.mode===`light`?`light`:`dark`} `} to="/about">
+              <NavLink style={{textDecoration:"none"}} className={`nav-link mx-2 text-${props.mode===`light`?`light`:`dark`} `} to="/about">
                 {props.about}
-              </Link>
+              </NavLink>
             </li>
           </ul>
             <div  className="form-check form-switch">
