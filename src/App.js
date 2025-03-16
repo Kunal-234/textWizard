@@ -27,15 +27,9 @@ function App() {
       <div className="container my-3">
       <Navbar mode={mode} toggleMode={toggleMode} title='TextWizard' about='About us'/>
       <Routes>
-        
           <Route path='/' element={<TextForm mode={mode} heading='TextWizard'/>}/ > 
-        
           <Route path='/about' element={<About mode={mode}/>} /> 
-
       </Routes>
-
-      {/* <TextForm mode={mode} heading='TextUtils'/> */}
-  
       </div>
     </Router>
     </>
